@@ -18,8 +18,8 @@ function Navigation({active, setActive}) {
             <div className="user-con">
                 <img src={picture} alt="" />
                 <div className="text">
-                    <h2>Coco</h2>
-                    <p>Your Dashboard</p>
+                    <h2>Michael</h2>
+                    <p>SWE Intern</p>
                 </div>
             </div>
             <ul className="menu-items">
@@ -64,12 +64,12 @@ const NavStyled = styled.nav`
         img{
             width: 80px;
             height: 80px;
-            border-radius: 20px;
+            border-radius: 50%;
             object-fit: cover;
-            background: #FFFFFF;
-            border: 2px solid #FFFFFF;
+            background: #5FC3B2;
+            // border: 2px solid #FFFFFF;
             padding: .2rem;
-            box-shadow: 0px 1px 17px rgba(0, 0, 0, 0.06);
+            // box-shadow: 0px 1px 17px rgba(0, 0, 0, 0.06);
         }
         h2{
             color: rgba(34, 34, 96, 1);
